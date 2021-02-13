@@ -1,5 +1,6 @@
 import React, { createRef, useState } from 'react';
 import logo from './logo.svg';
+import './App.css';
 
 function App() {
 
@@ -23,9 +24,10 @@ function App() {
     setMaxTime(e.currentTarget.duration);
   }
   const onInput=(e:React.FormEvent<HTMLInputElement>)=>{
+
     setcurrnetTime(Number(e.currentTarget.value));
     if(videoRef.current)
-    videoRef.current.currentTime=currentTime;
+    videoRef.current.currentTime=Number(e.currentTarget.value);
   }
   const onClickSkipButtons=(e:React.MouseEvent<HTMLButtonElement, MouseEvent>)=>{
     
@@ -47,15 +49,20 @@ function App() {
 
   return (
     <div>
-      <header>
+      <header id='player_header'>
         <h1>video player</h1>
       </header>
       <section>
-        <video ref={videoRef} width="1000" src="https://video-public.canva.com/VADbyUViLz0/videos/33cbbd0bc0.mp4" id='video_tag' onTimeUpdate={updateTimeBar} onLoadedData={onLoaded}  loop autoPlay={true}  playsInline/>
-        <input type='range' onInput={onInput}  value={currentTime} defaultValue={0}  max={maxTime} />
-        <button name="backward" onClick={onClickSkipButtons}>back 5sec</button>
-        <button onClick={onClickPlayButton}>{isPlaying?"pause":"start"}</button>
-        <button name="forward" onClick={onClickSkipButtons}>skip 5sec</button>
+        <div id="video_player">
+          <video id="video" ref={videoRef} width="1000" src="https://video-public.canva.com/VADbyUViLz0/videos/33cbbd0bc0.mp4" onTimeUpdate={updateTimeBar} onLoadedData={onLoaded}  playsInline/>
+          <input id='video_time_bar' type='range' onInput={onInput}  value={currentTime} defaultValue={0}  max={maxTime} />
+         <div id="control_buttons">
+            <button id='backward' name="backward" onClick={onClickSkipButtons}>back 5sec</button>
+            <button id='play' onClick={onClickPlayButton}>{isPlaying?"pause":"start"}</button>
+            <button id='forward' name="forward" onClick={onClickSkipButtons}>skip 5sec</button>
+         </div>
+        
+        </div>
       </section>
     </div>
   );
