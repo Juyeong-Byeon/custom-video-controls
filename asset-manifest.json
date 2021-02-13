@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/custom-video-controls/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/custom-video-controls/static/js/main.7af3bcd9.chunk.js",
-    "main.js.map": "/custom-video-controls/static/js/main.7af3bcd9.chunk.js.map",
-    "runtime-main.js": "/custom-video-controls/static/js/runtime-main.66d5f9ce.js",
-    "runtime-main.js.map": "/custom-video-controls/static/js/runtime-main.66d5f9ce.js.map",
-    "static/js/2.56b7846d.chunk.js": "/custom-video-controls/static/js/2.56b7846d.chunk.js",
-    "static/js/2.56b7846d.chunk.js.map": "/custom-video-controls/static/js/2.56b7846d.chunk.js.map",
-    "static/js/3.e96b72ff.chunk.js": "/custom-video-controls/static/js/3.e96b72ff.chunk.js",
-    "static/js/3.e96b72ff.chunk.js.map": "/custom-video-controls/static/js/3.e96b72ff.chunk.js.map",
+    "main.css": "/custom-video-controls/static/css/main.6112b24c.chunk.css",
+    "main.js": "/custom-video-controls/static/js/main.20a35c51.chunk.js",
+    "main.js.map": "/custom-video-controls/static/js/main.20a35c51.chunk.js.map",
+    "runtime-main.js": "/custom-video-controls/static/js/runtime-main.98036ae4.js",
+    "runtime-main.js.map": "/custom-video-controls/static/js/runtime-main.98036ae4.js.map",
+    "static/js/2.a07ffe03.chunk.js": "/custom-video-controls/static/js/2.a07ffe03.chunk.js",
+    "static/js/2.a07ffe03.chunk.js.map": "/custom-video-controls/static/js/2.a07ffe03.chunk.js.map",
+    "static/js/3.396612a5.chunk.js": "/custom-video-controls/static/js/3.396612a5.chunk.js",
+    "static/js/3.396612a5.chunk.js.map": "/custom-video-controls/static/js/3.396612a5.chunk.js.map",
     "index.html": "/custom-video-controls/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/custom-video-controls/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.56b7846d.chunk.js.LICENSE.txt": "/custom-video-controls/static/js/2.56b7846d.chunk.js.LICENSE.txt"
+    "static/css/main.6112b24c.chunk.css.map": "/custom-video-controls/static/css/main.6112b24c.chunk.css.map",
+    "static/js/2.a07ffe03.chunk.js.LICENSE.txt": "/custom-video-controls/static/js/2.a07ffe03.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.66d5f9ce.js",
-    "static/js/2.56b7846d.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.7af3bcd9.chunk.js"
+    "static/js/runtime-main.98036ae4.js",
+    "static/js/2.a07ffe03.chunk.js",
+    "static/css/main.6112b24c.chunk.css",
+    "static/js/main.20a35c51.chunk.js"
   ]
 }
